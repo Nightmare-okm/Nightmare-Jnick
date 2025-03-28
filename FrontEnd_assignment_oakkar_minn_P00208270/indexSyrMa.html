@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Boutique - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- reCAPTCHA API -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <img class="logo" src="images/logo2.png" alt="Logo">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="coffee.html">Coffee Selection</a>
+        <ul class="dropdown">
+          <li><a href="blackcoffee.html">Black Coffee</a></li>
+          <li><a href="milkcoffee.html">Milk-Based Coffee</a></li>
+          <li><a href="icedcoffee.html">Iced Cold Coffee </a></li>
+          <li><a href="specialitycoffee.html">Specialty & Unique Brews</a></li>
+         
+        </ul>
+      </li>
+      <li><a href="brewing.html">Brewing Equipment</a></li>
+      <li><a href="events.html">Events & Workshops</a></li>
+      <li><a href="cart.html">Shopping Cart</a></li>
+      <li><a href="offers.html">Special Offers</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header with Slideshow -->
+  <!-- <header>
+    <div class="slideshow">
+      <img src="images/espresso.jpeg" alt="Coffee Beans">
+      <img src="images/doppiocoffee.jpeg" alt="Brewing Equipment">
+      <img src="images/cappuccino.jpeg" alt="People Enjoying Coffee">
+    </div>
+  </header> -->
+
+  <!-- Main Content -->
+  <main>
+    <section class="welcome">
+      <h1>Welcome to Bean Boutique</h1>
+      <p>Discover the finest coffee blends and brewing equipment.</p>
+      <div class="h-special"> 
+        <div class="sp-col">
+          <img src="" alt="Discount Image">
+          <div class="ncol">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis veniam inventore quo eos a repudiandae adipisci, facilis aut neque distinctio sed praesentium tempora molestiae voluptatum dolore incidunt quidem fugit.</p>
+          </div>
+        </div>
+        <div class="sp-col">
+          <img src="" alt="Discount Image">
+          <div class="ncol">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis veniam inventore quo eos a repudiandae adipisci, facilis aut neque distinctio sed praesentium tempora molestiae voluptatum dolore incidunt quidem fugit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div> Coffee </div>
+      <div>Events</div>
+      <div>Brewing</div>
+
+
+
+    </section>
+
+    <!-- Social Media Feed Widget -->
+    <!-- <section class="widget">
+      <h2>Follow Us on Social Media</h2>
+      <div class="social-media-feed"> -->
+        <!-- EmbedSocial Instagram Feed (Replace with your EmbedSocial code) -->
+        <!-- <div id="embedsocial-instagram-feed" data-ref="YOUR_EMBED_CODE"></div>
+        <script src="https://embedsocial.com/embedscript/in.js"></script>
+      </div>
+    </section> -->
+
+    <!-- Interactive Map Widget -->
+    <section class="widget">
+      <h2>Visit Us</h2>
+      <div class="map">
+        <!-- Google Maps Embed (Replace with your location) -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d8a32f7f8c8!2sBean%20Boutique!5e0!3m2!1sen!2sus!4v1622549400000!5m2!1sen!2sus"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bean Boutique. All rights reserved.</p>
+    <p>
+      <a href="http://www.facebook.com">Facebook</a>|
+      <a href="http://www.twitter.com">Twitter</a>|
+      <a href="http://www.instagram.com">Instagram</a>
+    </p>
+  </footer>
+
+  <!-- Modal Popup for Email Signup -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Welcome to Bean Boutique!</h2>
+      <p>Get 10% off your first purchase when you sign up for our newsletter.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <!-- reCAPTCHA Widget -->
+        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

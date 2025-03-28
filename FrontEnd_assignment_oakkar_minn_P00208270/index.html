@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lyfe Cafe - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">
+      <div class="lyfeLogo">
+      <img src="image/lyfelogo.png" alt=""><a href="index.html"></a></div>
+      </a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="coffee.html">Coffee Selection</a> 
+        <ul class="dropdown">
+          <li><a href="blackcoffee.html">Black Coffee</a></li>
+          <li><a href="milkbase.html">Milk-Based Coffee</a></li>
+          <li><a href="icecoffee.html">Iced Coffee</a></li>
+          <li><a href="specialty.html">Speicalty and Unique Coffee</a></li>
+        </ul>   
+        
+</li>
+      
+      <li><a href="brewing.html">Brewing Equipment</a></li>
+      <li><a href="events.html">Events & Workshops</a></li>
+      <li><a href="cart.html">Shopping Cart</a></li>
+      <li><a href="offers.html">Special Offers</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="welcome">
+      <audio id="myAudio">
+        <source src="music/toy-story-short-happy-audio-logo-short-cartoony-intro-outro-music-125627.mp3" type="audio/mpeg">
+      </audio>
+
+      <button class="music" onclick="playAudio()">Play Music</button>
+
+      <script>
+        function playAudio() {
+          var audio = document.getElementById("myAudio");
+          audio.play().then(() => {
+            console.log("Audio playing...");
+          }).catch(error => {
+            console.log("Playback error:", error);
+          });
+        }
+      </script>
+      <img src="image/coffePage.jpg" alt="">
+    </section>
+    <div class="h-special"> 
+      <div class="sp-col">
+        <img src="MachineImage/specialOffer" alt="Discount Image">
+        <div class="ncol">
+          <h3>☕️ Exclusive Coffee Shop Discount ☕️</h3>
+          <ul>
+            <li>[10]% OFF on all coffee beverages ☕️</li>
+            <li>Buy 1, Get 1 FREE on selected drinks 🎉</li>
+            <li>Free Cookies with every purchase over Latte 💝</li>
+           
+          </ul>
+        </div>
+        
+      </div>
+      <div class="sp-col">
+        <img src="MachineImage/specialOffer2" alt="Discount Image">
+        <div class="ncol">
+          <h3>☕️ Black Friday Special! ☕️</h3>
+          <ul>
+            <li>Buy 1, Get 1 FREE on all handcrafted beverages!</li>
+            <li>20% OFF on all coffee beans & merchandise!</li>
+            <li>FREE Pastry with any large coffee purchase!/li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="h-special"> 
+      <div class="sp-col">
+        <img src="MachineImage/specialOffer" alt="Discount Image">
+        <div class="ncol">
+          <b>☕️ Exclusive Coffee Shop Discount! ☕️</p>
+          <p>✨ Special Offer:
+            ✅ [X]% OFF on all coffee beverages ☕️
+            ✅ Buy 1, Get 1 FREE on selected drinks 🎉
+            ✅ [Free Item] with every purchase over [X] 💝</p>
+        </div>
+      </div>
+      <div class="sp-col">
+        <img src="MachineImage/specialOffer2" alt="Discount Image">
+        <div class="ncol">
+          <b>☕️ Black Friday Special at [Your Coffee Shop Name]! ☕️</b>
+          <p>✅ Buy 1, Get 1 FREE on all handcrafted beverages!
+            ✅ 20% OFF on all coffee beans & merchandise!
+            ✅ FREE Pastry with any large coffee purchase!</p>
+        </div>
+      </div>
+    </div>
+`
+
+
+
+  </section>
+
+    
+    <section class="widget">
+      <h2>Follow Us:</h2>
+      <div class="social-media-feed">
+        <a href="https://www.facebook.com/"> <img src="image/facebook logo.png" alt=""></a>
+        <a href="https://www.Instagram.com"><img src="image/instaLogo.png" alt=""></a>
+        <a href="https://www.twitter.com"><img src="image/twitterlogo.png" alt=""></a>
+      </div>
+    </section>
+
+    <section class="widget">
+      <h2>Visit Us:</h2>
+      <div class="map">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1150.8671119583144!2d96.1308745124639!3d16.836762383900844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1950053bbb351%3A0xf766c339890d25c2!2sMIRAE%20CAFE!5e0!3m2!1sen!2smm!4v1743092205025!5m2!1sen!2smm" 
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+
+        <p>&copy; 2025 Lyfe Cafe. All rights reserved.</p>
+  </footer>
+
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Welcome to Lyfe Cafe</h2>
+      <p>Get 10% off your first purchase when you sign up for our newsletter.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+       
+        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

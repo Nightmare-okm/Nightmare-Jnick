@@ -1,0 +1,71 @@
+1. Espresso
+
+    Description: A concentrated form of coffee brewed by forcing hot water under pressure through finely-ground coffee beans.
+    Taste Notes: Bold, rich, and slightly bitter with a velvety crema. Often has a strong, full-bodied flavor with a hint of chocolate or caramel.
+
+2. Americano
+
+    Description: Made by diluting a shot of espresso with hot water, giving it a similar strength to drip coffee.
+    Taste Notes: Smooth and well-balanced, often less intense than espresso but still retains its rich flavors with slight bitterness and a hint of sweetness.
+
+3. Cappuccino
+
+    Description: A shot of espresso topped with steamed milk and a thick layer of foamed milk.
+    Taste Notes: Creamy, smooth, with a balance of espresso bitterness and milk sweetness. The foam provides a silky texture and mild frothy finish.
+
+4. Latte
+
+    Description: Espresso with a larger amount of steamed milk and a small layer of foamed milk.
+    Taste Notes: Creamy and slightly sweet, with the milk softening the intensity of the espresso. The flavor is smooth and mellow with a hint of nuttiness.
+
+5. Macchiato
+
+    Description: A shot of espresso "stained" with a small amount of steamed milk or milk foam.
+    Taste Notes: Strong and bold with a slight creaminess. The flavor is much more espresso-forward, with a rich, robust taste and minimal milk.
+
+6. Mocha
+
+    Description: A combination of espresso, steamed milk, and chocolate syrup or cocoa powder, often topped with whipped cream.
+    Taste Notes: Sweet, chocolatey, and creamy, with a rich espresso base. The balance of chocolate and coffee flavors gives it a dessert-like quality.
+
+7. Flat White
+
+    Description: Similar to a latte, but with a higher proportion of coffee to milk and a thinner layer of microfoam.
+    Taste Notes: Velvety, smooth, and strong with a robust coffee flavor. The texture is creamy without being overly milky, allowing the espresso to shine through.
+
+8. Cold Brew
+
+    Description: Coffee brewed slowly with cold water over a long period (12-24 hours).
+    Taste Notes: Smooth, mellow, and slightly sweet with less acidity than hot-brewed coffee. It has a rich, full-bodied flavor with hints of chocolate and nuttiness.
+
+9. Nitro Coffee
+
+    Description: Cold brew coffee infused with nitrogen gas, served on tap like draft beer.
+    Taste Notes: Creamy and smooth with a slight effervescence. The nitrogen infusion gives it a frothy texture and a rich, velvety mouthfeel with a mild sweetness.
+
+10. Cortado
+
+    Description: Equal parts espresso and steamed milk, served in a small glass.
+    Taste Notes: Balanced and smooth, with the milk softening the espresso's bitterness. It has a rich, creamy texture and a subtle sweetness.
+
+11. Ristretto
+
+    Description: A "short" shot of espresso made with the same amount of coffee but half the amount of water.
+    Taste Notes: More intense and concentrated than regular espresso, with a syrupy consistency and a strong, rich flavor, often with hints of dark chocolate or fruitiness.
+
+12. Turkish Coffee
+
+    Description: Ground coffee beans, sugar (optional), and water are simmered together in a small pot (cezve) over low heat.
+    Taste Notes: Strong, thick, and often sweetened, with a dense and almost syrupy texture. The flavor is rich, with earthy and slightly spicy notes, and often a bit of bitterness.
+
+13. Flat White
+
+    Description: Originating from Australia/New Zealand, it’s similar to a latte, but the milk is steamed to a velvety texture, creating a creamier drink with a more espresso-forward flavor.
+    Taste Notes: Rich, creamy, and bold. The balance of milk and espresso creates a smooth, silky drink with deep coffee flavor and a lightly sweet finish.
+
+14. Affogato
+
+    Description: A dessert-style coffee made by pouring a shot of hot espresso over a scoop of vanilla ice cream.
+    Taste Notes: Sweet, creamy, and decadent. The bitterness of the espresso contrasts with the sweetness of the ice cream, creating a perfect blend of coffee and dessert.
+
+These are just a few examples, and there are many more ways coffee can be prepared, each offering unique flavors and textures!

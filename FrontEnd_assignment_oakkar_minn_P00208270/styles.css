@@ -1,0 +1,532 @@
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, rgba(235,211,117,1) 0%, rgba(128,103,34,1) 100%);
+  color: #2a1f14;
+  cursor:url("image/cursor.png") .10.10,auto;
+}
+
+.music{
+  margin-bottom: 20px;
+}
+nav {
+  
+  width: 100%;
+  background-color: #6f4e37 ;
+  position: fixed;
+  border: 3px solid white;
+  border-radius: 40px;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.lyfeLogo img {
+  width: 90px;
+ margin-left: -280px;
+
+
+}
+
+nav ul li div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav ul li img {
+  width: 20px;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 35px;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 1px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 30px;
+ 
+}
+
+nav a:hover {
+  color: white;
+
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background: transparent;
+  min-width: 220px;
+  padding-top: 15px;
+}
+
+.dropdown li {
+  display: block;
+}
+
+.dropdown li a {
+  font-weight: lighter;
+  display: block;
+  text-align: center;
+  background-color: black;
+  color: gold;
+  padding: 10px 10px;
+ 
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.dropdown li a:hover {
+  background-color: white;
+  color: #624f37;
+ 
+}
+
+header {
+  text-align: center;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  padding: 2rem;
+  margin-top: 80px;
+}
+.welcome{
+  margin-top: 20px;
+  
+}
+
+.welcome img{
+display: flex;
+width: 100%;
+height: 500px;
+border-radius: 40px;
+}
+footer {
+  background: #6f4e37;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  bottom: 0;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  width: 50%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+
+.coffee-list,
+.equipment-list,
+
+
+.cart-items,
+.offers {
+  margin: 0 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
+}
+.h-special{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.sp-col{
+  width: 100%;
+  border: 1px solid goldenrod;
+  margin: 10px;
+  display: flex;
+
+  background: rgb(235,211,117);
+  background: radial-gradient(circle, rgba(235,211,117,1) 0%, rgba(128,103,34,1) 100%);
+
+}
+.sp-col img{
+  width:200px;
+
+  
+}
+.ncol{
+  width:45%;
+}
+.event-list{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+}
+
+.event-item{
+ width: 70%;
+ padding: 1rem;
+ width: 70%;
+ text-align: center;
+ border: 1px solid #ccc;
+}
+.equipment-item,
+.coffee-item {
+  width: 350px;
+  height: 500px;
+  border: 3px solid white;
+  background-color: black;
+  text-align: center;
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.3);
+  transition: all 0.5s;
+  border-radius: 10px;
+  color: gold;
+  cursor: pointer;
+}
+
+.coffee-item:hover {
+  background-color: #624f37;
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+  color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.equipment-item img,
+.coffee-item img {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+.coffee-item a{
+  color: white;
+}
+
+main h1 {
+  color: black;
+  margin: 30px 0 30px 90px;
+}
+
+.equipment-item h2{
+  padding: 0 10px 0 10px;
+}
+
+.equipment-item p,
+.coffee-item p {
+  padding: 0 10px 0 10px;
+}
+
+.more{
+  margin-top: 35px;
+}
+
+.more a {
+  text-decoration: none;
+  color: white;
+  background-color: #624f37;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.more a:hover{
+  border: 2px solid #D3A075;
+  color: #2a4d50;
+  background-color: white;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.price a{
+  text-decoration: none;
+  color: white;
+  background-color: #624f37;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.price a:hover {
+  border: 2px solid #D3A075;
+  color: #2a4d50;
+  background-color: white;
+}
+
+.price img {
+  width: 20px;
+}
+
+.equipment-item:hover{
+  background-color: white;
+  transform: translateX(-10px);
+  color: #624f37;
+}
+
+.widget {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  background: rgb(212,84,25);
+  background: radial-gradient(circle, rgba(212,84,25,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.widget h2 {
+  margin-bottom: 1rem;
+}
+
+.social-media-feed {
+  display: flex;
+  justify-content: left;
+  background: rgb(212,147,25);
+  background: radial-gradient(circle, rgba(212,147,25,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.map iframe {
+  border: none;
+  border-radius: 5px;
+}
+
+
+.g-recaptcha {
+  margin: 1rem 0;
+}
+.Title-event{
+  text-align: center;
+}
+.Title-event h1{
+  color: Black;
+}
+
+.register{
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.register h1{
+  text-align: center;
+  
+}
+.register form{
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.item{
+  margin: 15px;
+  width: 90%;
+}
+.item label,input,select{
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  width:40%;
+}
+.item1{
+  text-align: right;
+}
+.item1 button{
+  background-color: black;
+  color:gold;
+  border-radius: 20px;
+  font-size: medium;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+
+}
+
+.item1 button:hover{
+  background-color: white;
+  color: black;
+  transition-duration:1ms ;
+}
+
+.limitedDiscount img{
+  width: 20%;
+  height: 50%;
+  display: flex;
+  border-radius: 20px;
+}
+
+.cartButton{
+  background-color: black;
+  color: gold;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3); 
+  position: relative;
+  overflow: hidden;
+}
+.carttotal{
+  border: 1px solid #624f37;
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(212, 179, 81);
+}
+
+.offer-item img{
+  width: 400px;
+  height: 50%;
+  display: flex;
+  border-radius: 20px;
+}
+
+.event-heading{
+  text-align: center;
+}
+.buttonOffer button {
+  background-color: black;
+  color: gold;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3); 
+  position: relative;
+  overflow: hidden;
+}
+
+.buttonOffer button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.buttonOffer button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: left 0.4s;
+}
+
+.buttonOffer button:hover::after {
+  left: 100%;
+}
+
+/* Buttons */
+button, .buttonOffer button, .cartButton, .more a, .price a, .item1 button {
+  background-color: black;
+  color: gold;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+  border: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover, .buttonOffer button:hover, .cartButton:hover, .more a:hover, .price a:hover, .item1 button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.cartqty {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.cartqty:hover {
+  background-color: black;
+  color: white;
+}
+.coffeeshop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 5rem;
+}
+.coffeeshop img{
+  width: 300px;
+  height: 250px;
+}
